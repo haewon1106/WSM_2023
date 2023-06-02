@@ -1,0 +1,24 @@
+/* desktop */
+body{
+    background-color: darkseagreen;
+}
+
+/* table */
+@media screen and (max-width:720px) {
+    body{
+        background-color: lightcoral;
+    }
+}
+
+/* mobile */
+@media screen and (max-width:540px) {
+    body{
+        background-color: lightblue;
+    }
+}
+
+/* ** ex) and() -> x
+          () x -> x
+          max-width= -> x */
+
+
