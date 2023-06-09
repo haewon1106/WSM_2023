@@ -1,0 +1,21 @@
+/* 3단계의 동작을 min-width를 써서 만드세요 */
+
+
+/* moblie */
+body{
+    background-color: thistle;
+}
+
+/* tablet */
+@media screen and (min-width:541px){
+    body{
+        background-color: lightpink;
+    }
+}
+
+/* desktop */
+@media screen and (min-width:721px){
+    body{
+        background-color: lightcyan;
+    }
+} 
