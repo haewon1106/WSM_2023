@@ -28,7 +28,7 @@
     transition: all 0.2s;
 }
 
-.book-item > img {
+.book-item img {
     width: 150px;
     display: block; /* 이미지 밑에 살짝 생기는 여백 문제 해결 */
 }
